@@ -26,10 +26,13 @@ rails version (`7.0.3.1`)
 ### Run API
 1. `cd carer`
 1. `bundle install`
-1. `rails s`
+1. `rails s`   
+Example: http://127.0.0.1:3000/api/carer?year=2021&month=08&day=09   
+API Controller: `carer\app\controllers\application_controller.rb`
 
 ### Run tests
-1. `rails test test/integration/`
+1. `rails test test/integration/`   
+Integration Test: `carer\test\integration\carer_availability_test.rb`
 
 ## On Completion
 - Fork and push your changes, then notify the hiring manager   
