@@ -24,7 +24,6 @@ ruby version (`3.1.2p20`)
 rails version (`7.0.3.1`)
 
 ### Run API
-1. `cd carer`
 1. `bundle install`
 1. `rails s`   
 Example: http://127.0.0.1:3000/api/carer?year=2021&month=08&day=09   
